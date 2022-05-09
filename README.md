@@ -18,6 +18,20 @@ yarn install
 ## local development
 
 ```shell
+git clone https://github.com/umarhadi/spotify-canvas.git
+```
+
+```shell
+cd spotify-canvas
+```
+
+```shell
+cp .env.example .env
+```
+
+change the values in the .env file with yours.
+
+```shell
 yarn build && vercel dev
 ```
 
@@ -26,5 +40,7 @@ yarn build && vercel dev
 ```shell
 yarn build && vercel --prod
 ```
+
+set the environment variables in your project settings.
 
 
