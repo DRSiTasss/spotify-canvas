@@ -91,7 +91,7 @@ function getPersonalToken() {
 }
 
 function getRecentlyPlayed(token) {
-  const RECENTLY_PLAYED_URL = 'https://api.spotify.com/v1/me/player/recently-played';
+  const RECENTLY_PLAYED_URL = 'https://api.spotify.com/v1/me/player/recently-played?limit=50';
   const recentlyPlayedOpts = {
     headers: {
       Authorization: `Bearer ${token}`,
