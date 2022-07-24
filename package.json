@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "google-protobuf": "^3.11.4",
+    "google-protobuf": "^3.20.1",
     "sirv-cli": "^0.4.4"
   },
   "scripts": {
